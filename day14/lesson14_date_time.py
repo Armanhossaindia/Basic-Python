@@ -52,6 +52,14 @@ print(dtobj.strftime('Microsecond  : %f'))
 print('display custom format: ')
 print('-'*40)
 
+#21-10-2021 
+print(dtobj.strftime('%d-%m-%Y'))
+print(dtobj.strftime('%d.%m.%Y'))
+print(dtobj.strftime('%A, %d.%m.%Y'))
+
+
+print(dtobj.strftime('%I:%M:%S %p'))
+print(dtobj.strftime('%H:%M:%S '))
 
 
 
